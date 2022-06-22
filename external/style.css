@@ -131,9 +131,8 @@ body{
 
 .branding button:hover{
     background-color: rgba(255, 0, 0, 0.959);
-    padding: 1rem 2rem;
     border: none; outline: none;
-    border-radius: 1rem 0.3rem 1rem 0.4rem;
+    border-radius: 2rem 1rem 2rem 1rem;
 }
 /* Services CSS */
 
@@ -147,14 +146,13 @@ body{
     font-size: 3rem;
     background-color: black;
     text-shadow: 0 0 1rem white;
-    animation: neon 10s linear infinite alternate;
+    box-shadow: 0 0 2rem black;
     font-weight: bolder;
     padding: 2rem 0rem;
     letter-spacing: 0.3rem;
 }
 .ser::before{
     content: '';
-    background: url('https://www.eatthis.com/wp-content/uploads/sites/4/media/images/ext/842849976/greasy-fast-food.jpg?quality=82&strip=1');
     position: absolute;
     height: 100%;
     width: 100%;
@@ -229,6 +227,55 @@ body{
     width: 50rem;
     height: 20rem;
     border-radius: 0rem 2rem 0rem 2rem;
+}
+
+/* Contact CSS */
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Dosis', sans-serif;
+    box-shadow: 0 0 2rem black;
+    background-color: rgba(148, 4, 4, 0.726);
+    padding: 4rem 0rem;
+}
+.form label{
+    color: white;
+    font-size: 3rem;
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.567);
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+   
+}
+.form input{
+    background-color: transparent;
+    box-shadow: 0 0 1rem red;
+    outline: none; border: none;
+    color: white;
+    border-radius: 0rem 3rem 0rem 3rem;
+    font-family: 'Dosis', sans-serif;
+    font-size: 2rem;
+    padding: 1rem 5rem;
+    letter-spacing: 0.15rem;
+    text-align: center;
+}
+.form button{
+    background-color: transparent;
+    color: rgb(0, 255, 0);
+    border: none; outline: none;
+    box-shadow: 0 0 1rem black;
+    border-radius: 2rem 0rem 2rem 0rem;
+    font-size: 2.5rem;
+    transition: 0.5s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form button:hover{
+    transform: rotate(-40deg);
 }
 
 /* Footer CSS */

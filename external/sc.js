@@ -8,3 +8,10 @@ function nhide() {
     document.getElementById('navhide').style.display = 'none';
     document.getElementById('nbt').style.display = 'block';
 }
+
+//
+
+function alt() {
+    alert('This is a Assignment Project, You cant order!');
+    
+}
