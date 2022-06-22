@@ -1,0 +1,273 @@
+@media (max-width: 730px) {
+    .intro img{
+        height: 20rem;
+    }
+    .nav{
+        display: none;
+        text-align: center;
+    }
+    .nav ul{
+        display: grid;
+        margin: 0;
+        padding: 0; 
+    }
+    .cnav button{
+        display: block;
+    }
+}
+    
+@media (max-width: 600px) {
+    .intro img{
+        height: 26rem;
+        padding: 0.3rem;
+        width: 17rem;
+    }
+}
+
+@media (max-width: 545px) {
+    html{
+        font-size: 60%;
+    }
+    .intro h3{
+        font-size: 4rem;
+    }
+    .intro img{
+        height: 20rem;
+        padding: 0.3rem;
+        width: 13rem;
+    }
+}
+
+@media (max-width: 500px) {
+    html{
+        font-size: 60%;
+    }
+    .intro h3{
+        font-size: 3.2rem;
+    }
+    .intro img{
+        height: 20rem;
+        padding: 0.3rem;
+        width: 13rem;
+    }
+    .ser img{
+        width: 25em;
+    }
+    #juice{
+        width: 35rem;
+    }
+    .food span{
+        font-size: 1.5rem;
+    }
+}
+
+
+@media (max-width: 450px) {
+    html{
+        font-size: 60%;
+    }
+    .intro h3{
+        font-size: 3rem;
+    }
+    .intro img{
+        padding: 0.3rem;
+        width: 12rem;
+    }
+}
+
+
+@media (max-width: 431px) {
+    html{
+        font-size: 60%;
+    }
+    .intro h3{
+        font-size: 2.5rem;
+    }
+    .intro img{
+        padding: 0.3rem;
+        width: 12rem;
+    }
+}
+    
+@media (max-width: 385px) {
+    html{
+        font-size: 55%;
+    }
+    .intro h3{
+        font-size: 2.5rem;
+    }
+    .intro img{
+        padding: 0.3rem;
+        width: 12rem;
+    }
+}
+@media (max-width: 385px) {
+    html{
+        font-size: 53.5%;
+    }
+    .intro h3{
+        font-size: 2.5rem;
+    }
+    .intro img{
+        padding: 0.3rem;
+        width: 12rem;
+    }
+}
+
+@media (max-width: 330px) {
+    html{
+        font-size: 47%;
+    }
+    .intro h3{
+        font-size: 2.5rem;
+    }
+    .intro img{
+        padding: 0.3rem;
+        width: 12rem;
+    }
+}
+
+@media (max-width: 300px) {
+    html{
+        font-size: 43%;
+    }
+    .intro h3{
+        font-size: 2.6rem;
+    }
+    .intro img{
+        padding: 0.3rem;
+        width: 10rem;
+        height: 18rem;
+    }
+}
+
+@media (max-width: 285px) {
+    html{
+        font-size: 40%;
+    }
+    .intro h3{
+        font-size: 2.6rem;
+    }
+    .intro img{
+        padding: 0.2rem;
+        width: 13rem;
+        height: 24rem;
+    }
+}
+
+
+@media (max-width: 265px) {
+    html{
+        font-size: 35%;
+    }
+    .intro h3{
+        font-size: 3.2rem;
+    }
+    .intro img{
+        padding: 0.3rem;
+        width: 13rem;
+        height: 23rem;
+    }
+}
+
+@media (max-width: 260px) {
+    html{
+        font-size: 30%;
+    }
+    .intro h3{
+        font-size: 3.9rem;
+    }
+    .intro img{
+        padding: 0.3rem;
+        width: 14rem;
+        height: 25rem;
+    }
+    .ser span{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 240px) {
+    html{
+        font-size: 25%;
+    }
+    .intro h3{
+        font-size: 4rem;
+    }
+    .intro img{
+        padding: 0.3rem;
+        width: 17rem;
+        height: 27rem;
+    }
+    .ser span{
+        font-size: 2.4rem;
+    }
+}
+
+@media (max-width: 220px) {
+    html{
+        font-size: 22%;
+    }
+    .intro h3{
+        font-size: 4rem;
+    }
+    .intro img{
+        padding: 0.3rem;
+        width: 17rem;
+        height: 30rem;
+    }
+    .ser span{
+        font-size: 2.4rem;
+    }
+}
+
+@media (max-width: 200px) {
+    html{
+        font-size: 20%;
+    }
+    .intro h3{
+        font-size: 4.4rem;
+    }
+    .intro img{
+        padding: 0.3rem;
+        width: 17rem;
+        height: 30rem;
+    }
+    .ser span{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 180px) {
+    html{
+        font-size: 18%;
+    }
+    .intro h3{
+        font-size: 4.4rem;
+    }
+    .intro img{
+        padding: 0.3rem;
+        width: 17rem;
+        height: 30rem;
+    }
+    .ser span{
+        font-size: 2.6rem;
+    }
+}
+
+@media (max-width: 170px) {
+    html{
+        font-size: 14%;
+    }
+    .intro h3{
+        font-size: 5rem;
+    }
+    .intro img{
+        padding: 0.3rem;
+        width: 17rem;
+        height: 30rem;
+    }
+    .ser span{
+        font-size: 3rem;
+    }
+}

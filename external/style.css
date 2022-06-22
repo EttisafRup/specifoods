@@ -1,0 +1,250 @@
+/* Page Setup */
+
+*{
+    top: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+#break{
+    margin-top: 2rem;
+}
+body{
+    background-color: rgb(109, 0, 0);
+    transform: 1s;
+}
+/* Navigation Bar */
+#navhide{
+    display: none;
+}
+.cnav button{
+    display: none;
+    width: 100%;
+    height: 4rem;
+    background-color: rgba(0, 0, 0, 0.616);
+    box-shadow: 0 0 1rem rgb(0, 0, 0);
+    color: white;
+    border: none; outline: none;
+    text-shadow: 0 0 1rem white;
+    font-family: 'AudioWide', sans-serif;
+    letter-spacing: 0.4rem;
+    position: fixed;
+    cursor: pointer;
+}
+.nav{
+    transition-delay: 1s;
+}
+.nav ul{
+    position: fixed;
+    width: 100%;
+    font-family: 'Dosis', sans-serif;
+    font-size: 2rem;
+    list-style: none; 
+    background-color: rgba(109, 0, 0, 0.938);
+    overflow: auto;
+    box-shadow: 0 0 5rem black;
+}
+.nav li{
+    float: left;
+    color: white;
+    text-shadow: 0 0 0.2rem white;
+    padding: 1.3rem 2.5rem;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.nav li:hover{
+    text-shadow: 0 0 1.2rem white;
+}
+.nav input{
+    text-align: center;
+    padding: 0.2rem;
+    font-family: 'AudioWide', sans-serif;
+    border: none; outline: none;
+    border: 0.2rem solid rgb(255, 255, 255);
+    background: transparent;
+    border-radius:1rem;
+    float: right;
+    color: white;
+    text-shadow: 0 0 1rem white;
+    margin-right: 5rem;
+    margin-top: 1.5rem;
+    font-size: 1.4rem;
+
+}
+
+.intro::before{
+    content: '';
+    background: url('https://ettisafrup.github.io/specifoods/head.jpeg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index:-1;
+    filter: blur(5px);
+}
+
+/* Intro CSS */
+.img{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+
+}
+.img img{
+    margin-top: 5rem;
+    padding: 0rem 1rem;
+    height: 25rem;
+    border-radius: 0rem 1rem 0rem 0.7rem;
+    box-shadow: 0 0 2rem black;
+}
+.branding{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.branding h3{
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.795);
+    box-shadow: 0 0 1rem black;
+    padding: 1.5rem 3rem;
+    font-size: 4rem;
+    letter-spacing: 0.5rem;
+    text-shadow: 0 0 0.7rem white;
+}
+.branding button{
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 3rem;
+    padding: 1.5rem 3rem;
+    border: none; outline: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.938);;
+    border-radius: 0.3rem 1rem 0.3rem 1.4rem;
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: rgba(109, 0, 0, 0.938);
+    color: white;
+    text-shadow: 0 0 0.5rem white;
+}
+
+.branding button:hover{
+    background-color: rgba(255, 0, 0, 0.959);
+    padding: 1rem 2rem;
+    border: none; outline: none;
+    border-radius: 1rem 0.3rem 1rem 0.4rem;
+}
+/* Services CSS */
+
+.ser{
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+.ser h3{
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-size: 3rem;
+    background-color: black;
+    text-shadow: 0 0 1rem white;
+    animation: neon 10s linear infinite alternate;
+    font-weight: bolder;
+    padding: 2rem 0rem;
+    letter-spacing: 0.3rem;
+}
+.ser::before{
+    content: '';
+    background: url('https://www.eatthis.com/wp-content/uploads/sites/4/media/images/ext/842849976/greasy-fast-food.jpg?quality=82&strip=1');
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    z-index: -1;
+    filter: blur(7px);
+}
+.ser img{
+    width: 25rem;
+    border-radius: 3rem 1rem 5rem 2rem;
+    animation: neon 5s linear infinite alternate;
+}
+@keyframes neon {
+    0%{
+        box-shadow: 0 0 2rem black;
+        border-bottom: 0.3rem solid rgb(0, 0, 0);
+        border-left: 0.3rem solid rgb(0, 0, 0);
+    }
+    20%{
+        box-shadow: 0 0 2rem rgb(0, 225, 255);
+        border-bottom: 0.3rem solid rgb(0, 225, 255);
+        border-left: 0.3rem solid rgb(0, 225, 255);
+    }
+    40%{
+        box-shadow: 0 0 2rem rgb(102, 255, 0);
+        border-bottom: 0.3rem solid rgb(102, 255, 0);
+        border-left: 0.3rem solid rgb(102, 255, 0);
+    }
+    60%{
+        box-shadow: 0 0 2rem rgb(0, 35, 131);
+        border-bottom: 0.3rem solid rgb(0, 35, 131);
+        border-left: 0.3rem solid rgb(0, 35, 131);
+    }
+    80%{
+        box-shadow: 0 0 2rem rgb(225, 0, 255);
+        border-bottom: 0.3rem solid rgb(225, 0, 255);
+        border-left: 0.3rem solid rgb(225, 0, 255);
+    }
+    100%{
+        box-shadow: 0 0 2rem rgb(153, 0, 255);
+        border-bottom: 0.3rem solid rgb(153, 0, 255);
+        border-left: 0.3rem solid rgb(153, 0, 255);
+    }
+}
+
+.food span{
+    font-size: 2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.823);
+    padding: 1rem 3rem;
+    box-shadow: 0 0 2rem rgb(0, 0, 0);
+    border-radius: 0rem 0rem 2rem 2rem;
+    text-shadow: 0 0 0.5rem rgb(255, 255, 255);
+    letter-spacing: 0.2rem;
+}
+.food strong{
+    animation: price 0.2s linear infinite alternate;
+}
+@keyframes price {
+    0%{
+        text-shadow: 0;
+    }
+    50%{
+        text-shadow: 0 0 1rem white;
+    }
+    100%{
+        text-shadow: 0 0 2rem white;
+    }
+    
+}
+#juice{
+    width: 50rem;
+    height: 20rem;
+    border-radius: 0rem 2rem 0rem 2rem;
+}
+
+/* Footer CSS */
+footer{
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 0.2rem;
+    background-color: rgb(66, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 3rem;
+    box-shadow: 0 0 1rem black;
+}
+footer p{
+    font-size: 2rem;
+    color: white;
+}
+footer label{
+    font-size: 1.7rem;
+}
